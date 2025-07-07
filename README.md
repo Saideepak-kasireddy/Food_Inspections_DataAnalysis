@@ -51,7 +51,7 @@ This project follows the **Medallion Architecture**:
 
 ---
 
-## 📊 Dashboard Requirements
+## 📊 Dashboard insights
 
 The final BI dashboards visualize insights from the data, including:
 
@@ -70,15 +70,14 @@ The final BI dashboards visualize insights from the data, including:
 
 ✔️ **Data Profiling Reports** — Clear documentation of data quality issues  
 ✔️ **Data Cleansing Steps** — Transformations, adjustments, and standardizations performed  
-✔️ **Dimensional Model** — Deployed in Snowflake with prefixed `dim_` and `fact_` tables  
+✔️ **Dimensional Model** — Deployed in Snowflake with proper dimension and fact tables  
 ✔️ **BI Dashboards** — Comprehensive Power BI reports for business users  
-✔️ **Screenshots & Documentation** — Proof of results as required
 
 ---
 
-## 📝 Good Practices Followed
+## 📝 Practices Followed
 
-- Adhered to best practices discussed in class, including clear data lineage, proper medallion layer separation, and meticulous documentation.
+- Ensured clear data lineage and proper separation of medallion layers
 - Ensured consistency across datasets from different cities by harmonizing schema and data types.
 - Applied rigorous profiling to highlight missing, inconsistent, or invalid records.
 - Incorporated detailed comments on cleansing logic and modeling decisions.
@@ -92,12 +91,4 @@ The final BI dashboards visualize insights from the data, including:
 - [Chicago Business Licenses](https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses/r5kz-chrr)
 
 ---
-
-## 📎 Author
-
-*This project was developed as part of a data engineering and analytics coursework assignment, demonstrating end-to-end data pipeline design and BI storytelling capabilities.*
-
----
-
-Feel free to fork or contribute!
 
