@@ -32,7 +32,7 @@ This project analyzes food inspection data from two major cities — **Chicago**
 This project follows the **Medallion Architecture**:
 
 1. **Bronze Layer:**
-   - Load raw TSV data into stage tables (`stg_` prefix).
+   - Load raw TSV data into stage tables.
    - Profile and document data issues.
 
 2. **Silver Layer:**
